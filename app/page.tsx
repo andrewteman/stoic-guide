@@ -67,7 +67,7 @@ export default function HomePage() {
           <button
             type="submit"
             disabled={loading || !situation.trim()}
-            className="rounded-xl px-4 py-2 text-sm font-bold text-white bg-[#CC33CC] hover:opacity-90 disabled:opacity-50"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-white bg-[#33CC33] hover:opacity-90 disabled:opacity-50"
           >
             {loading ? "Thinking…" : "Get Stoic Guidance"}
           </button>
