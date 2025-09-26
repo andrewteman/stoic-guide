@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="max-w-3xl mx-auto px-4 py-8">
           <header className="mb-8">
             <h1 className="text-3xl font-semibold tracking-tight">Stoic Guide</h1>
-            <p className="text-sm opacity-80">Practical Stoic perspective—fast.</p>
+            <p className="text-sm opacity-80">View any situation through the lens of a Stoic </p>
           </header>
           {children}
           <footer className="mt-12 text-xs opacity-70 space-y-2">
