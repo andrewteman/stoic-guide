@@ -57,7 +57,7 @@ export default function HomePage() {
           id="situation"
           value={situation}
           onChange={(e) => setSituation(e.target.value)}
-          placeholder='e.g., "I am on vacation and it will be raining all week! 😫"'
+          placeholder='e.g., "I am on vacation and it will be raining all week!"'
           required
           maxLength={500}
           className="w-full min-h-28 rounded-2xl border p-3 outline-none focus:ring-2 focus:ring-black/10 dark:focus:ring-white/20"
