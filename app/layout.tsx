@@ -19,10 +19,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <footer className="mt-12 text-xs opacity-70 space-y-2">
             <p>
               Quotes are from public‑domain Stoic sources (e.g., Marcus Aurelius, Seneca, Epictetus).
-              This app provides philosophical perspective, not medical or legal advice.
+              This app provides a philosophical perspective, not medical or legal advice.
             </p>
-            <p><a href="#" className="underline">What is Stoicism?</a></p>
-            <p><a href="#" className="underline">About this tool.</a></p>
+            <p><a href="https://dailystoic.com/what-is-stoicism-a-definition-3-stoic-exercises-to-get-you-started/" className="underline">What is Stoicism?</a></p>
+            <p><a href="http://andrewteman.org" className="underline">Created by Andrew Teman</a></p>
           </footer>
         </div>
       </body>
